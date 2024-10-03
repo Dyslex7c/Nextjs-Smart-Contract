@@ -1,18 +1,22 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a [Next.js](https://nextjs.org) project clubbed with [ethers.js](https://docs.ethers.org/v6/) bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
-npm run dev
-# or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+
+Start a new instance of your hardhat node:
+
+```bash
+git clone https://github.com/PatrickAlphaC/hardhat-simple-storage.git
+cd hardhat-simple-storage
+yarn hardhat node
+```
+
+Make sure you have Metamask installed
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
